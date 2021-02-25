@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "catalogos",
+  "info": {
+    "name": "catalogo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "marca": {
+      "type": "string"
+    }
+  }
+}
